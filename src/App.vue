@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    12121
-    <router-view/>
+     <router-view/>
+     <el-button type="primary" :loading="true">加载中</el-button>
   </div>
-</template>
-
-<style lang="scss"></style>
+</template> <style lang="scss"></style>
