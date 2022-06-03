@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import homepage from './views/home/HomePage.vue'
 import router from './router'
 import store from './store'
 import ElementUI from 'element-ui'
@@ -10,5 +11,5 @@ Vue.use(ElementUI)
 new Vue({
   router,
   store,
-  render: h => h(App)
+  render: h => h(homepage)
 }).$mount('#app')
